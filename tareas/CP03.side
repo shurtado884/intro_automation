@@ -1,0 +1,62 @@
+{
+  "id": "31aca271-3d6a-4dbf-ab7a-10522f5eeaa2",
+  "name": "Untitled Project",
+  "url": "http://songs-by-sinatra.herokuapp.com",
+  "tests": [{
+    "id": "b76f3599-245f-48ad-8736-807110123c67",
+    "name": "Prueba Logueo",
+    "commands": [{
+      "id": "a49f78e8-1c7a-4b6b-a78e-5224e347402e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "50404ed0-4416-424d-a201-8b394f9bed03",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=footer > a",
+      "value": "8,12"
+    }, {
+      "id": "611ce917-34cc-4744-b3c6-62fa2a831c42",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=username",
+      "value": "61,12"
+    }, {
+      "id": "381cecef-3c0d-4a98-91e9-f895562e951c",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "value": "franc"
+    }, {
+      "id": "6954d802-9603-4f79-a3ac-853340b9759b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "value": "61,12"
+    }, {
+      "id": "bc94d880-91e5-4c2f-a072-70146bccc102",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "value": "sinatra"
+    }, {
+      "id": "0d49c653-1b8c-4400-a54d-a6dea04c407a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input[type=\"submit\"]",
+      "value": "26,10"
+    }]
+  }],
+  "suites": [{
+    "id": "280f65bf-4a95-40b1-b2e0-8275438d4987",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b76f3599-245f-48ad-8736-807110123c67"]
+  }],
+  "urls": ["http://songs-by-sinatra.herokuapp.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
